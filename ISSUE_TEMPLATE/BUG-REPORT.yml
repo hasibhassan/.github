@@ -48,6 +48,18 @@ body:
     render: markdown
   validations:
     required: false
+- type: dropdown
+  id: browsers
+  attributes:
+    label: What browsers are you seeing the problem on?
+    multiple: true
+    options:
+      - Firefox
+      - Chrome
+      - Safari
+      - Microsoft Edge
+   validations:
+    required: false
 - type: textarea
   attributes:
     label: Anything else?
